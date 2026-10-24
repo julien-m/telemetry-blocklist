@@ -1,5 +1,5 @@
 {
-  "name": "mac-telemetry-blocklists",
+  "name": "telemetry-blocklist",
   "private": true,
   "type": "module",
   "scripts": {

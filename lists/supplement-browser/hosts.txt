@@ -1,4 +1,4 @@
-# Mac Telemetry Blocklists - supplement-browser
+# Telemetry Blocklist - supplement-browser
 # Complete minus domain-anchored blocks found in selected browser lists, including conditional blocks; candidates only.
 # Exact hostnames only; no implicit subdomains.
 0.0.0.0 ads-api.tiktok.com

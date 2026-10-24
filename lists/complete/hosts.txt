@@ -1,4 +1,4 @@
-# Mac Telemetry Blocklists - complete
+# Telemetry Blocklist - complete
 # Turtlecute inventory plus documented telemetry collectors. Includes all Turtlecute risks.
 # Exact hostnames only; no implicit subdomains.
 0.0.0.0 ad.doubleclick.net

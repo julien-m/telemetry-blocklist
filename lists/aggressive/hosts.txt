@@ -1,4 +1,4 @@
-# Mac Telemetry Blocklists - aggressive
+# Telemetry Blocklist - aggressive
 # Complete plus mixed-use analytics and feature-flag services; may break app functionality.
 # Exact hostnames only; no implicit subdomains.
 0.0.0.0 ad.doubleclick.net

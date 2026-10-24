@@ -1,4 +1,4 @@
-! Title: Mac Telemetry Blocklists - telemetry
+! Title: Telemetry Blocklist - telemetry
 ! Description: Documented event and crash ingestion endpoints; shared endpoints affect multiple apps.
 ! License: CC BY-NC-SA 4.0
 ! Expires: 1 day

@@ -1,4 +1,4 @@
-# Mac Telemetry Blocklists - telemetry
+# Telemetry Blocklist - telemetry
 # Documented event and crash ingestion endpoints; shared endpoints affect multiple apps.
 # Exact hostnames only; no implicit subdomains.
 0.0.0.0 api.eu.amplitude.com

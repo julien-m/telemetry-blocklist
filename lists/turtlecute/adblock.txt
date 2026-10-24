@@ -1,4 +1,4 @@
-! Title: Mac Telemetry Blocklists - turtlecute
+! Title: Telemetry Blocklist - turtlecute
 ! Description: Exact Turtlecute test inventory; includes dashboards, SDK assets and mixed-use services.
 ! License: CC BY-NC-SA 4.0
 ! Expires: 1 day

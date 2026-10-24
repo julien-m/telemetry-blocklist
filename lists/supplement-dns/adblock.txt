@@ -1,4 +1,4 @@
-! Title: Mac Telemetry Blocklists - supplement-dns
+! Title: Telemetry Blocklist - supplement-dns
 ! Description: Complete minus unconditional domain blocks found in AdGuard DNS filter; static candidate supplement.
 ! License: CC BY-NC-SA 4.0
 ! Expires: 1 day

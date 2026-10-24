@@ -1,4 +1,4 @@
-# Mac Telemetry Blocklists - supplement-dns
+# Telemetry Blocklist - supplement-dns
 # Complete minus unconditional domain blocks found in AdGuard DNS filter; static candidate supplement.
 # Exact hostnames only; no implicit subdomains.
 0.0.0.0 ads-api.tiktok.com

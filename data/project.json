@@ -1,7 +1,7 @@
 {
-  "title": "Mac Telemetry Blocklists",
-  "repository": "https://github.com/julien-m/mac-telemetry-blocklists",
-  "rawBase": "https://raw.githubusercontent.com/julien-m/mac-telemetry-blocklists/stable",
+  "title": "Telemetry Blocklist",
+  "repository": "https://github.com/julien-m/telemetry-blocklist",
+  "rawBase": "https://raw.githubusercontent.com/julien-m/telemetry-blocklist/stable",
   "turtleSource": "https://raw.githubusercontent.com/Turtlecute33/adblocktest/master/src/data/adblock_data.json",
   "turtleLiveBundle": "https://adblock.turtlecute.org/js/index.js",
   "baselineSources": [

@@ -1,4 +1,4 @@
-# Mac Telemetry Blocklists - turtlecute
+# Telemetry Blocklist - turtlecute
 # Exact Turtlecute test inventory; includes dashboards, SDK assets and mixed-use services.
 # Exact hostnames only; no implicit subdomains.
 0.0.0.0 ad.doubleclick.net

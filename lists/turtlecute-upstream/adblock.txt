@@ -1,4 +1,4 @@
-! Title: Mac Telemetry Blocklists - turtlecute-upstream
+! Title: Telemetry Blocklist - turtlecute-upstream
 ! Description: Published Turtlecute hosts list; may include names absent from the live test.
 ! License: CC BY-NC-SA 4.0
 ! Expires: 1 day

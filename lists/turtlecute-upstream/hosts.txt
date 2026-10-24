@@ -1,4 +1,4 @@
-# Mac Telemetry Blocklists - turtlecute-upstream
+# Telemetry Blocklist - turtlecute-upstream
 # Published Turtlecute hosts list; may include names absent from the live test.
 # Exact hostnames only; no implicit subdomains.
 0.0.0.0 ad.doubleclick.net

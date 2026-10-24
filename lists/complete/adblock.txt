@@ -1,4 +1,4 @@
-! Title: Mac Telemetry Blocklists - complete
+! Title: Telemetry Blocklist - complete
 ! Description: Turtlecute inventory plus documented telemetry collectors. Includes all Turtlecute risks.
 ! License: CC BY-NC-SA 4.0
 ! Expires: 1 day

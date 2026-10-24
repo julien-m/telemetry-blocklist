@@ -1,4 +1,4 @@
-# Mac Telemetry Blocklists
+# Telemetry Blocklist
 
 Small, auditable blocklists for Little Snitch, AdGuard and uBlock Origin. Includes the complete Turtlecute host-test inventory and documented telemetry collectors used by desktop software. This is a research-backed starting point, not an exhaustive tracker database or a claim of zero breakage.
 
@@ -24,9 +24,9 @@ The publication branch is `stable`.
 
 | Client | Full inventory | Candidate supplement |
 |---|---|---|
-| Little Snitch 6/7 | [complete domains](https://raw.githubusercontent.com/julien-m/mac-telemetry-blocklists/stable/lists/complete/domains.txt) | [DNS supplement domains](https://raw.githubusercontent.com/julien-m/mac-telemetry-blocklists/stable/lists/supplement-dns/domains.txt) |
-| AdGuard Home / DNS filtering | [complete Adblock rules](https://raw.githubusercontent.com/julien-m/mac-telemetry-blocklists/stable/lists/complete/adblock.txt) | [DNS supplement rules](https://raw.githubusercontent.com/julien-m/mac-telemetry-blocklists/stable/lists/supplement-dns/adblock.txt) |
-| AdGuard browser extension / uBlock Origin | [complete Adblock rules](https://raw.githubusercontent.com/julien-m/mac-telemetry-blocklists/stable/lists/complete/adblock.txt) | [browser supplement rules](https://raw.githubusercontent.com/julien-m/mac-telemetry-blocklists/stable/lists/supplement-browser/adblock.txt) |
+| Little Snitch 6/7 | [complete domains](https://raw.githubusercontent.com/julien-m/telemetry-blocklist/stable/lists/complete/domains.txt) | [DNS supplement domains](https://raw.githubusercontent.com/julien-m/telemetry-blocklist/stable/lists/supplement-dns/domains.txt) |
+| AdGuard Home / DNS filtering | [complete Adblock rules](https://raw.githubusercontent.com/julien-m/telemetry-blocklist/stable/lists/complete/adblock.txt) | [DNS supplement rules](https://raw.githubusercontent.com/julien-m/telemetry-blocklist/stable/lists/supplement-dns/adblock.txt) |
+| AdGuard browser extension / uBlock Origin | [complete Adblock rules](https://raw.githubusercontent.com/julien-m/telemetry-blocklist/stable/lists/complete/adblock.txt) | [browser supplement rules](https://raw.githubusercontent.com/julien-m/telemetry-blocklist/stable/lists/supplement-browser/adblock.txt) |
 
 Little Snitch: open Rules → Add Blocklists / + → enter the chosen raw URL. Its domains format blocks listed names and subdomains. See [Objective Development's format documentation](https://help.obdev.at/littlesnitch6/concepts-blocklists).
 
