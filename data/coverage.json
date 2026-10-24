@@ -1,0 +1,4802 @@
+{
+  "ad.doubleclick.net": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||doubleclick.net^"
+    },
+    "adguard-base": {
+      "status": "global",
+      "rule": "||ad.doubleclick.net^"
+    },
+    "adguard-tracking": {
+      "status": "conditional",
+      "rule": "||doubleclick.net^$image,3p"
+    },
+    "easylist": {
+      "status": "global",
+      "rule": "||ad.doubleclick.net^"
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "unresolved",
+      "rule": ""
+    }
+  },
+  "adc3-launch.adcolony.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||adcolony.com^"
+    },
+    "adguard-base": {
+      "status": "conditional",
+      "rule": "||adcolony.com^$3p"
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "conditional",
+      "rule": "||adcolony.com^$third-party"
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "adcolony.com"
+    }
+  },
+  "adfox.yandex.ru": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||adfox.yandex.ru^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "global",
+      "rule": "||adfox.yandex.ru^"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "adfox.yandex.ru"
+    }
+  },
+  "adfstat.yandex.ru": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||adfstat.yandex.ru^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||adfstat.yandex.ru^"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "adfstat.yandex.ru"
+    }
+  },
+  "adm.hotjar.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||hotjar.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "conditional",
+      "rule": "||hotjar.com^$3p"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||hotjar.com^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "hotjar.com"
+    }
+  },
+  "ads-api.tiktok.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "exception-review",
+      "rule": "@@||tiktok.com^$generichide"
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "exception-review",
+      "rule": "@@||tiktok.com^$generichide"
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "ads-api.tiktok.com"
+    }
+  },
+  "ads-api.twitter.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||ads-api.twitter.com^"
+    },
+    "adguard-base": {
+      "status": "exception-review",
+      "rule": "@@||ads-api.twitter.com^$domain=ads.twitter.com|analytics.twitter.com"
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||ads-api.twitter.com^"
+    },
+    "easylist": {
+      "status": "exception-review",
+      "rule": "@@||ads-api.twitter.com^$domain=ads.twitter.com|analytics.twitter.com"
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "ads-api.twitter.com"
+    }
+  },
+  "ads-sg.tiktok.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "exception-review",
+      "rule": "@@||tiktok.com^$generichide"
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "exception-review",
+      "rule": "@@||tiktok.com^$generichide"
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "ads-sg.tiktok.com"
+    }
+  },
+  "ads.linkedin.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||ads.linkedin.com^"
+    },
+    "adguard-base": {
+      "status": "global",
+      "rule": "||ads.linkedin.com^"
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "global",
+      "rule": "||ads.linkedin.com^"
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "ads.linkedin.com"
+    }
+  },
+  "ads.pinterest.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "exception-review",
+      "rule": "@@||ads.pinterest.com^$popup"
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "exception-review",
+      "rule": "@@||ads.pinterest.com^$popup"
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "ads.pinterest.com"
+    }
+  },
+  "ads.tiktok.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "exception-review",
+      "rule": "@@||ads.tiktok.com^$popup"
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "exception-review",
+      "rule": "@@||ads.tiktok.com^$popup"
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "ads.tiktok.com"
+    }
+  },
+  "ads.yahoo.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "conditional",
+      "rule": "||ads.yahoo.com^$~image"
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "conditional",
+      "rule": "||ads.yahoo.com^$~image"
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "ads.yahoo.com"
+    }
+  },
+  "ads.youtube.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||ads.youtube.com^"
+    },
+    "adguard-base": {
+      "status": "conditional",
+      "rule": "||youtube.com^$domain=sarapbabe.com"
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "conditional",
+      "rule": "||youtube.com^$removeparam=pp"
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "ads.youtube.com"
+    }
+  },
+  "ads30.adcolony.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||adcolony.com^"
+    },
+    "adguard-base": {
+      "status": "conditional",
+      "rule": "||adcolony.com^$3p"
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "conditional",
+      "rule": "||adcolony.com^$third-party"
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "adcolony.com"
+    }
+  },
+  "adserver.unityads.unity3d.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||unityads.unity3d.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "unityads.unity3d.com"
+    }
+  },
+  "adservetx.media.net": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "conditional",
+      "rule": "||media.net^$object,script,3p,xhr"
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "conditional",
+      "rule": "||media.net^$object,script,third-party,xmlhttprequest"
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||media.net^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "media.net"
+    }
+  },
+  "adservice.google.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||adservice.google.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "unresolved",
+      "rule": ""
+    }
+  },
+  "adsfs.oppomobile.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||adsfs.oppomobile.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "adsfs.oppomobile.com"
+    }
+  },
+  "adtago.s3.amazonaws.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||adtago.s3.amazonaws.com^"
+    },
+    "adguard-base": {
+      "status": "global",
+      "rule": "||adtago.s3.amazonaws.com^"
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "global",
+      "rule": "||adtago.s3.amazonaws.com^"
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "adtago.s3.amazonaws.com"
+    }
+  },
+  "adtech.yahooinc.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "adtech.yahooinc.com"
+    }
+  },
+  "advice-ads.s3.amazonaws.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||advice-ads.s3.amazonaws.com^"
+    },
+    "adguard-base": {
+      "status": "global",
+      "rule": "||advice-ads.s3.amazonaws.com^"
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "global",
+      "rule": "||advice-ads.s3.amazonaws.com^"
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "advice-ads.s3.amazonaws.com"
+    }
+  },
+  "adx.ads.oppomobile.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||ads.oppomobile.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "ads.oppomobile.com"
+    }
+  },
+  "afs.googlesyndication.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||afs.googlesyndication.com^"
+    },
+    "adguard-base": {
+      "status": "exception-review",
+      "rule": "@@||googlesyndication.com^$domain=searchftps.org"
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "conditional",
+      "rule": "||googlesyndication.com^$domain=blogto.com|youtube.com"
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "googlesyndication.com"
+    }
+  },
+  "an.facebook.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||an.facebook.com^"
+    },
+    "adguard-base": {
+      "status": "exception-review",
+      "rule": "@@||facebook.com^$generichide"
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "exception-review",
+      "rule": "@@||facebook.com^$generichide"
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "conditional",
+      "rule": "||facebook.com^$removeparam=share_url"
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "an.facebook.com"
+    }
+  },
+  "analytics-api.samsunghealthcn.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||analytics-api.samsunghealthcn.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||analytics-api.samsunghealthcn.com^"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "global",
+      "rule": "||analytics-api.samsunghealthcn.com^"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "analytics-api.samsunghealthcn.com"
+    }
+  },
+  "analytics-sg.tiktok.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||analytics-sg.tiktok.com^"
+    },
+    "adguard-base": {
+      "status": "exception-review",
+      "rule": "@@||tiktok.com^$generichide"
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||analytics-sg.tiktok.com^"
+    },
+    "easylist": {
+      "status": "exception-review",
+      "rule": "@@||tiktok.com^$generichide"
+    },
+    "easyprivacy": {
+      "status": "global",
+      "rule": "||analytics-sg.tiktok.com^"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "analytics-sg.tiktok.com"
+    }
+  },
+  "analytics.google.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||analytics.google.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "conditional",
+      "rule": "||analytics.google.com^$domain=analytics.google.com"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||analytics.google.com^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "analytics.google.com"
+    }
+  },
+  "analytics.pointdrive.linkedin.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||analytics.pointdrive.linkedin.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||analytics.pointdrive.linkedin.com^"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "global",
+      "rule": "||analytics.pointdrive.linkedin.com^"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "analytics.pointdrive.linkedin.com"
+    }
+  },
+  "analytics.query.yahoo.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||analytics.query.yahoo.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||analytics.query.yahoo.com^"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "analytics.query.yahoo.com"
+    }
+  },
+  "analytics.s3.amazonaws.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||analytics.s3.amazonaws.com^"
+    },
+    "adguard-base": {
+      "status": "conditional",
+      "rule": "||s3.amazonaws.com^$domain=oko.sh|linkrex.net|youtubemultidownloader.com|fullypcgames.net|itdmusic.com|filescdn.com|katfile.com|nitroflare.com|uploads.to|bluemediafiles.*|dropgalaxy.com|bluemediafile.*|oxtorrent.sk|bluemediadownload.*|urlbluemedia.*|bluedownload.*"
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||analytics.s3.amazonaws.com^"
+    },
+    "easylist": {
+      "status": "conditional",
+      "rule": "||amazonaws.com^$domain=animeflv.net|mangakakalot.gg|nelomanga.net|uploadhaven.com"
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "analytics.s3.amazonaws.com"
+    }
+  },
+  "analytics.tiktok.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||analytics.tiktok.com^"
+    },
+    "adguard-base": {
+      "status": "exception-review",
+      "rule": "@@||tiktok.com^$generichide"
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||analytics.tiktok.com^"
+    },
+    "easylist": {
+      "status": "exception-review",
+      "rule": "@@||tiktok.com^$generichide"
+    },
+    "easyprivacy": {
+      "status": "global",
+      "rule": "||analytics.tiktok.com^"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "analytics.tiktok.com"
+    }
+  },
+  "analytics.yahoo.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||analytics.yahoo.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||analytics.yahoo.com^"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "global",
+      "rule": "||analytics.yahoo.com^"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "analytics.yahoo.com"
+    }
+  },
+  "analyticsengine.s3.amazonaws.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||analyticsengine.s3.amazonaws.com^"
+    },
+    "adguard-base": {
+      "status": "conditional",
+      "rule": "||s3.amazonaws.com^$domain=oko.sh|linkrex.net|youtubemultidownloader.com|fullypcgames.net|itdmusic.com|filescdn.com|katfile.com|nitroflare.com|uploads.to|bluemediafiles.*|dropgalaxy.com|bluemediafile.*|oxtorrent.sk|bluemediadownload.*|urlbluemedia.*|bluedownload.*"
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||analyticsengine.s3.amazonaws.com^"
+    },
+    "easylist": {
+      "status": "conditional",
+      "rule": "||amazonaws.com^$domain=animeflv.net|mangakakalot.gg|nelomanga.net|uploadhaven.com"
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "analyticsengine.s3.amazonaws.com"
+    }
+  },
+  "api-adservices.apple.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||api-adservices.apple.com^"
+    },
+    "adguard-base": {
+      "status": "exception-review",
+      "rule": "@@||apple.com^$generichide"
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||api-adservices.apple.com^"
+    },
+    "easylist": {
+      "status": "exception-review",
+      "rule": "@@||apple.com^$generichide"
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "api-adservices.apple.com"
+    }
+  },
+  "api-eu.mixpanel.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "conditional",
+      "rule": "||mixpanel.com^$3p"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||mixpanel.com^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "mixpanel.com"
+    }
+  },
+  "api-in.mixpanel.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "conditional",
+      "rule": "||mixpanel.com^$3p"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||mixpanel.com^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "mixpanel.com"
+    }
+  },
+  "api.ad.xiaomi.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||ad.xiaomi.com^"
+    },
+    "adguard-base": {
+      "status": "global",
+      "rule": "||ad.xiaomi.com^"
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||api.ad.xiaomi.com^"
+    },
+    "easylist": {
+      "status": "global",
+      "rule": "||ad.xiaomi.com^"
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "ad.xiaomi.com"
+    }
+  },
+  "api.bugsnag.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "exception-review",
+      "rule": "@@||bugsnag.com^$~third-party,domain=app.bugsnag.com"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "bugsnag.com"
+    }
+  },
+  "api.eu.amplitude.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||amplitude.com^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "amplitude.com"
+    }
+  },
+  "api.luckyorange.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||luckyorange.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "conditional",
+      "rule": "||luckyorange.com^$3p"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||luckyorange.com^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "luckyorange.com"
+    }
+  },
+  "api.mixpanel.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||api.mixpanel.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||api.mixpanel.com^"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||mixpanel.com^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "mixpanel.com"
+    }
+  },
+  "api.mouseflow.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||mouseflow.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "conditional",
+      "rule": "||mouseflow.com^$3p"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||mouseflow.com^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "mouseflow.com"
+    }
+  },
+  "api.segment.io": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||segment.io^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||api.segment.io^"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||segment.io^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "unresolved",
+      "rule": ""
+    }
+  },
+  "api2.amplitude.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||amplitude.com^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "amplitude.com"
+    }
+  },
+  "app.bugsnag.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "exception-review",
+      "rule": "@@||bugsnag.com^$~third-party,domain=app.bugsnag.com"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "bugsnag.com"
+    }
+  },
+  "app.getsentry.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||getsentry.com^$third-party,domain=~sentry.dev|~sentry.io"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "app.getsentry.com"
+    }
+  },
+  "appmetrica.yandex.ru": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "appmetrica.yandex.ru"
+    }
+  },
+  "auction.unityads.unity3d.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||unityads.unity3d.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "unityads.unity3d.com"
+    }
+  },
+  "bdapi-ads.realmemobile.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||bdapi-ads.realmemobile.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "bdapi-ads.realmemobile.com"
+    }
+  },
+  "bdapi-in-ads.realmemobile.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||bdapi-in-ads.realmemobile.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "bdapi-in-ads.realmemobile.com"
+    }
+  },
+  "books-analytics-events.apple.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||books-analytics-events.apple.com^"
+    },
+    "adguard-base": {
+      "status": "exception-review",
+      "rule": "@@||apple.com^$generichide"
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||books-analytics-events.apple.com^"
+    },
+    "easylist": {
+      "status": "exception-review",
+      "rule": "@@||apple.com^$generichide"
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "books-analytics-events.apple.com"
+    }
+  },
+  "browser-intake-ap1-datadoghq.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "browser-intake-ap1-datadoghq.com"
+    }
+  },
+  "browser-intake-ap2-datadoghq.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "browser-intake-ap2-datadoghq.com"
+    }
+  },
+  "browser-intake-datadoghq.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||browser-intake-datadoghq.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||browser-intake-datadoghq.com^"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "exception-review",
+      "rule": "@@||browser-intake-datadoghq.com^$xmlhttprequest,domain=grubhub.com|mightyape.co.nz"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "browser-intake-datadoghq.com"
+    }
+  },
+  "browser-intake-datadoghq.eu": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||browser-intake-datadoghq.eu^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||browser-intake-datadoghq.eu^"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "exception-review",
+      "rule": "@@||browser-intake-datadoghq.eu^$xmlhttprequest,domain=sncf-connect.com"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "browser-intake-datadoghq.eu"
+    }
+  },
+  "browser-intake-ddog-gov.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "browser-intake-ddog-gov.com"
+    }
+  },
+  "browser-intake-uk1-datadoghq.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "browser-intake-uk1-datadoghq.com"
+    }
+  },
+  "browser-intake-us2-ddog-gov.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "unresolved",
+      "rule": ""
+    }
+  },
+  "browser-intake-us3-datadoghq.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "browser-intake-us3-datadoghq.com"
+    }
+  },
+  "browser-intake-us5-datadoghq.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "browser-intake-us5-datadoghq.com"
+    }
+  },
+  "browser.sentry-cdn.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "exception-review",
+      "rule": "@@||browser.sentry-cdn.com^$domain=acustica-audio.com|alphaxiv.org|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|marshmallow-qa.com|members.bifa.film|menshealth.com|ocado.com|pocketguard.com|podcasty.seznam.cz|roomster.com|shop.dns-net.de|spacemarket.com|timesprime.com|vivareal.com.br|womenshealthmag.com"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "sentry-cdn.com"
+    }
+  },
+  "business-api.tiktok.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "exception-review",
+      "rule": "@@||tiktok.com^$generichide"
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "exception-review",
+      "rule": "@@||tiktok.com^$generichide"
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "business-api.tiktok.com"
+    }
+  },
+  "careers.hotjar.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||hotjar.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "conditional",
+      "rule": "||hotjar.com^$3p"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||hotjar.com^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "hotjar.com"
+    }
+  },
+  "cdn-test.mouseflow.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||mouseflow.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "conditional",
+      "rule": "||mouseflow.com^$3p"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||mouseflow.com^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "mouseflow.com"
+    }
+  },
+  "cdn.luckyorange.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||luckyorange.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "conditional",
+      "rule": "||luckyorange.com^$3p"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||luckyorange.com^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "luckyorange.com"
+    }
+  },
+  "cdn.mouseflow.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||mouseflow.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "conditional",
+      "rule": "||mouseflow.com^$3p"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||mouseflow.com^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "mouseflow.com"
+    }
+  },
+  "ck.ads.oppomobile.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||ads.oppomobile.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "ads.oppomobile.com"
+    }
+  },
+  "claritybt.freshmarketer.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||freshmarketer.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "conditional",
+      "rule": "||freshmarketer.com^$3p"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||freshmarketer.com^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "freshmarketer.com"
+    }
+  },
+  "click.googleanalytics.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "googleanalytics.com"
+    }
+  },
+  "click.oneplus.cn": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||click.oneplus.cn^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||click.oneplus.cn^"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "global",
+      "rule": "||click.oneplus.cn^"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "click.oneplus.cn"
+    }
+  },
+  "config.unityads.unity3d.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||unityads.unity3d.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "unityads.unity3d.com"
+    }
+  },
+  "cs.luckyorange.net": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||luckyorange.net^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "conditional",
+      "rule": "||luckyorange.net^$3p"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||luckyorange.net^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "luckyorange.net"
+    }
+  },
+  "data.ads.oppomobile.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||ads.oppomobile.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "ads.oppomobile.com"
+    }
+  },
+  "data.mistat.india.xiaomi.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||data.mistat.india.xiaomi.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||data.mistat.india.xiaomi.com^"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "mistat.india.xiaomi.com"
+    }
+  },
+  "data.mistat.rus.xiaomi.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||data.mistat.rus.xiaomi.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||data.mistat.rus.xiaomi.com^"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "mistat.rus.xiaomi.com"
+    }
+  },
+  "data.mistat.xiaomi.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||data.mistat.xiaomi.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||data.mistat.xiaomi.com^"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "mistat.xiaomi.com"
+    }
+  },
+  "eu.i.posthog.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||i.posthog.com^"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "unresolved",
+      "rule": ""
+    }
+  },
+  "eu1.api.segmentapis.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "segmentapis.com"
+    }
+  },
+  "events.eu1.segmentapis.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "segmentapis.com"
+    }
+  },
+  "events.hotjar.io": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||hotjar.io^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "conditional",
+      "rule": "||hotjar.io^$3p"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||hotjar.io^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "hotjar.io"
+    }
+  },
+  "events.reddit.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||events.reddit.com^"
+    },
+    "adguard-base": {
+      "status": "exception-review",
+      "rule": "@@||reddit.com^$generichide"
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||events.reddit.com^"
+    },
+    "easylist": {
+      "status": "exception-review",
+      "rule": "@@||reddit.com^$generichide"
+    },
+    "easyprivacy": {
+      "status": "global",
+      "rule": "||events.reddit.com^"
+    },
+    "ublock-privacy": {
+      "status": "conditional",
+      "rule": "||reddit.com^$doc,removeparam=utm_content"
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "events.reddit.com"
+    }
+  },
+  "events.redditmedia.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||events.redditmedia.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||events.redditmedia.com^"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "global",
+      "rule": "||events.redditmedia.com^"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "events.redditmedia.com"
+    }
+  },
+  "events.statsigapi.net": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||events.statsigapi.net^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||events.statsigapi.net^"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||statsigapi.net^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "statsigapi.net"
+    }
+  },
+  "events3alt.adcolony.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||adcolony.com^"
+    },
+    "adguard-base": {
+      "status": "conditional",
+      "rule": "||adcolony.com^$3p"
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "conditional",
+      "rule": "||adcolony.com^$third-party"
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "adcolony.com"
+    }
+  },
+  "extmaps-api.yandex.net": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||extmaps-api.yandex.net^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "global",
+      "rule": "||extmaps-api.yandex.net^"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "extmaps-api.yandex.net"
+    }
+  },
+  "freshmarketer.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||freshmarketer.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "conditional",
+      "rule": "||freshmarketer.com^$3p"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||freshmarketer.com^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "freshmarketer.com"
+    }
+  },
+  "fwtracks.freshmarketer.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||freshmarketer.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "conditional",
+      "rule": "||freshmarketer.com^$3p"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||freshmarketer.com^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "freshmarketer.com"
+    }
+  },
+  "gemini.yahoo.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "gemini.yahoo.com"
+    }
+  },
+  "geo.yahoo.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||geo.yahoo.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||geo.yahoo.com^"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "global",
+      "rule": "||geo.yahoo.com^"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "geo.yahoo.com"
+    }
+  },
+  "google-analytics.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||google-analytics.com^"
+    },
+    "adguard-base": {
+      "status": "conditional",
+      "rule": "||google-analytics.com^$image,redirect=1x1.gif,domain=simpmusic.org"
+    },
+    "adguard-tracking": {
+      "status": "exception-review",
+      "rule": "@@||google-analytics.com^$domain=daemon-tools.cc"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||google-analytics.com^$script,third-party,xmlhttprequest"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "google-analytics.com"
+    }
+  },
+  "grs.hicloud.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||grs.hicloud.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||grs.hicloud.com^"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "grs.hicloud.com"
+    }
+  },
+  "gtm.mouseflow.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||mouseflow.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "conditional",
+      "rule": "||mouseflow.com^$3p"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||mouseflow.com^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "mouseflow.com"
+    }
+  },
+  "http-intake.logs.us5.datadoghq.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "logs.us5.datadoghq.com"
+    }
+  },
+  "iadsdk.apple.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||iadsdk.apple.com^"
+    },
+    "adguard-base": {
+      "status": "exception-review",
+      "rule": "@@||apple.com^$generichide"
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "exception-review",
+      "rule": "@@||apple.com^$generichide"
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "iadsdk.apple.com"
+    }
+  },
+  "identify.hotjar.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||hotjar.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "conditional",
+      "rule": "||hotjar.com^$3p"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||hotjar.com^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "hotjar.com"
+    }
+  },
+  "ingest.de.sentry.io": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||sentry.io^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "sentry.io"
+    }
+  },
+  "ingest.sentry.io": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||sentry.io^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "sentry.io"
+    }
+  },
+  "ingest.us.sentry.io": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||sentry.io^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "sentry.io"
+    }
+  },
+  "insights.hotjar.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||hotjar.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "conditional",
+      "rule": "||hotjar.com^$3p"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||hotjar.com^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "hotjar.com"
+    }
+  },
+  "iot-eu-logser.realme.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||iot-eu-logser.realme.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||iot-eu-logser.realme.com^"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "iot-eu-logser.realme.com"
+    }
+  },
+  "iot-logser.realme.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||iot-logser.realme.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||iot-logser.realme.com^"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "iot-logser.realme.com"
+    }
+  },
+  "log.byteoversea.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "log.byteoversea.com"
+    }
+  },
+  "log.fc.yahoo.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "log.fc.yahoo.com"
+    }
+  },
+  "log.pinterest.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||log.pinterest.com^"
+    },
+    "adguard-base": {
+      "status": "exception-review",
+      "rule": "@@||pinterest.com^$generichide"
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||log.pinterest.com^"
+    },
+    "easylist": {
+      "status": "exception-review",
+      "rule": "@@||pinterest.com^$generichide"
+    },
+    "easyprivacy": {
+      "status": "global",
+      "rule": "||log.pinterest.com^"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "log.pinterest.com"
+    }
+  },
+  "logbak.hicloud.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||logbak.hicloud.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||logbak.hicloud.com^"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "global",
+      "rule": "||logbak.hicloud.com^"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "logbak.hicloud.com"
+    }
+  },
+  "logservice.hicloud.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||logservice.hicloud.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||logservice.hicloud.com^"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "global",
+      "rule": "||logservice.hicloud.com^"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "logservice.hicloud.com"
+    }
+  },
+  "logservice1.hicloud.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||logservice1.hicloud.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||logservice1.hicloud.com^"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "global",
+      "rule": "||logservice1.hicloud.com^"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "logservice1.hicloud.com"
+    }
+  },
+  "luckyorange.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||luckyorange.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "conditional",
+      "rule": "||luckyorange.com^$3p"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||luckyorange.com^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "luckyorange.com"
+    }
+  },
+  "m.doubleclick.net": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||doubleclick.net^"
+    },
+    "adguard-base": {
+      "status": "conditional",
+      "rule": "||doubleclick.net^$popup"
+    },
+    "adguard-tracking": {
+      "status": "conditional",
+      "rule": "||doubleclick.net^$image,3p"
+    },
+    "easylist": {
+      "status": "conditional",
+      "rule": "||doubleclick.net^$popup"
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "m.doubleclick.net"
+    }
+  },
+  "media.net": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "conditional",
+      "rule": "||media.net^$object,script,3p,xhr"
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "conditional",
+      "rule": "||media.net^$object,script,third-party,xmlhttprequest"
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||media.net^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "media.net"
+    }
+  },
+  "mediavisor.doubleclick.net": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||doubleclick.net^"
+    },
+    "adguard-base": {
+      "status": "conditional",
+      "rule": "||doubleclick.net^$popup"
+    },
+    "adguard-tracking": {
+      "status": "conditional",
+      "rule": "||doubleclick.net^$image,3p"
+    },
+    "easylist": {
+      "status": "conditional",
+      "rule": "||doubleclick.net^$popup"
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "mediavisor.doubleclick.net"
+    }
+  },
+  "metrics.data.hicloud.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||data.hicloud.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "conditional",
+      "rule": "||data.hicloud.com^$3p"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||data.hicloud.com^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "data.hicloud.com"
+    }
+  },
+  "metrics.icloud.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||metrics.icloud.com^"
+    },
+    "adguard-base": {
+      "status": "exception-review",
+      "rule": "@@||icloud.com^$generichide"
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||metrics.icloud.com^"
+    },
+    "easylist": {
+      "status": "exception-review",
+      "rule": "@@||icloud.com^$generichide"
+    },
+    "easyprivacy": {
+      "status": "global",
+      "rule": "||metrics.icloud.com^"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "metrics.icloud.com"
+    }
+  },
+  "metrics.mzstatic.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||metrics.mzstatic.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||metrics.mzstatic.com^"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "global",
+      "rule": "||metrics.mzstatic.com^"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "metrics.mzstatic.com"
+    }
+  },
+  "metrics2.data.hicloud.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||data.hicloud.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "conditional",
+      "rule": "||data.hicloud.com^$3p"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||data.hicloud.com^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "data.hicloud.com"
+    }
+  },
+  "metrika.yandex.ru": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "metrika.yandex.ru"
+    }
+  },
+  "mobile.events.data.microsoft.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "unresolved",
+      "rule": ""
+    }
+  },
+  "mouseflow.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||mouseflow.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "conditional",
+      "rule": "||mouseflow.com^$3p"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||mouseflow.com^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "mouseflow.com"
+    }
+  },
+  "nmetrics.samsung.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||nmetrics.samsung.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||nmetrics.samsung.com^"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "global",
+      "rule": "||nmetrics.samsung.com^"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "nmetrics.samsung.com"
+    }
+  },
+  "notes-analytics-events.apple.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||notes-analytics-events.apple.com^"
+    },
+    "adguard-base": {
+      "status": "exception-review",
+      "rule": "@@||apple.com^$generichide"
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||notes-analytics-events.apple.com^"
+    },
+    "easylist": {
+      "status": "exception-review",
+      "rule": "@@||apple.com^$generichide"
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "notes-analytics-events.apple.com"
+    }
+  },
+  "notify.bugsnag.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "exception-review",
+      "rule": "@@||bugsnag.com^$~third-party,domain=app.bugsnag.com"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "bugsnag.com"
+    }
+  },
+  "o2.mouseflow.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||mouseflow.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "conditional",
+      "rule": "||mouseflow.com^$3p"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||mouseflow.com^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "mouseflow.com"
+    }
+  },
+  "o207216.ingest.sentry.io": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||sentry.io^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "sentry.io"
+    }
+  },
+  "o33249.ingest.sentry.io": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||sentry.io^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "sentry.io"
+    }
+  },
+  "oaistatsig.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "unresolved",
+      "rule": ""
+    }
+  },
+  "offerwall.yandex.net": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||offerwall.yandex.net^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "offerwall.yandex.net"
+    }
+  },
+  "open.oneplus.net": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||open.oneplus.net^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||open.oneplus.net^"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||open.oneplus.net^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "open.oneplus.net"
+    }
+  },
+  "otlp.bugsnag.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "exception-review",
+      "rule": "@@||bugsnag.com^$~third-party,domain=app.bugsnag.com"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "bugsnag.com"
+    }
+  },
+  "pagead2.googleadservices.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||googleadservices.com^"
+    },
+    "adguard-base": {
+      "status": "exception-review",
+      "rule": "@@||googleadservices.com^$domain=google.ae|google.at|google.be|google.by|google.ca|google.ch|google.cl|google.cn|google.co.id|google.co.in|google.co.jp|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.bd|google.com.br|google.com.co|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.ng|google.com.pe|google.com.ph|google.com.pk|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.vn|google.de|google.dk|google.ee|google.es|google.fr|google.gr|google.hu|google.ie|google.it|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk|google.tn"
+    },
+    "adguard-tracking": {
+      "status": "conditional",
+      "rule": "||googleadservices.com^$3p"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||googleadservices.com^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "pagead2.googleadservices.com"
+    }
+  },
+  "pagead2.googlesyndication.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||pagead2.googlesyndication.com^"
+    },
+    "adguard-base": {
+      "status": "exception-review",
+      "rule": "@@||pagead2.googlesyndication.com^$domain=ytlarge.com"
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "global",
+      "rule": "||pagead2.googlesyndication.com^"
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "googlesyndication.com"
+    }
+  },
+  "partnerads.ysm.yahoo.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "partnerads.ysm.yahoo.com"
+    }
+  },
+  "pixel.facebook.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||pixel.facebook.com^"
+    },
+    "adguard-base": {
+      "status": "exception-review",
+      "rule": "@@||facebook.com^$generichide"
+    },
+    "adguard-tracking": {
+      "status": "exception-review",
+      "rule": "@@||pixel.facebook.com^$domain=pixel.facebook.com"
+    },
+    "easylist": {
+      "status": "exception-review",
+      "rule": "@@||facebook.com^$generichide"
+    },
+    "easyprivacy": {
+      "status": "global",
+      "rule": "||pixel.facebook.com^"
+    },
+    "ublock-privacy": {
+      "status": "conditional",
+      "rule": "||facebook.com^$removeparam=share_url"
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "pixel.facebook.com"
+    }
+  },
+  "prodregistryv2.org": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "unresolved",
+      "rule": ""
+    }
+  },
+  "realtime.luckyorange.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||luckyorange.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "conditional",
+      "rule": "||luckyorange.com^$3p"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||luckyorange.com^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "luckyorange.com"
+    }
+  },
+  "rum.browser-intake-datadoghq.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||browser-intake-datadoghq.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||browser-intake-datadoghq.com^"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "exception-review",
+      "rule": "@@||browser-intake-datadoghq.com^$xmlhttprequest,domain=grubhub.com|mightyape.co.nz"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "browser-intake-datadoghq.com"
+    }
+  },
+  "samsung-com.112.2o7.net": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||2o7.net^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "exception-review",
+      "rule": "@@||2o7.net^$domain=audiusa.com"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||2o7.net^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "samsung-com.112.2o7.net"
+    }
+  },
+  "samsungads.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||samsungads.com^"
+    },
+    "adguard-base": {
+      "status": "global",
+      "rule": "||samsungads.com^"
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "global",
+      "rule": "||samsungads.com^"
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "samsungads.com"
+    }
+  },
+  "script.hotjar.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||hotjar.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "conditional",
+      "rule": "||hotjar.com^$3p"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||hotjar.com^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "hotjar.com"
+    }
+  },
+  "sdkconfig.ad.intl.xiaomi.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||ad.intl.xiaomi.com^"
+    },
+    "adguard-base": {
+      "status": "global",
+      "rule": "||ad.intl.xiaomi.com^"
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||sdkconfig.ad.intl.xiaomi.com^"
+    },
+    "easylist": {
+      "status": "global",
+      "rule": "||ad.intl.xiaomi.com^"
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "ad.intl.xiaomi.com"
+    }
+  },
+  "sdkconfig.ad.xiaomi.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||ad.xiaomi.com^"
+    },
+    "adguard-base": {
+      "status": "global",
+      "rule": "||ad.xiaomi.com^"
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||sdkconfig.ad.xiaomi.com^"
+    },
+    "easylist": {
+      "status": "global",
+      "rule": "||ad.xiaomi.com^"
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "ad.xiaomi.com"
+    }
+  },
+  "sessions.bugsnag.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "exception-review",
+      "rule": "@@||bugsnag.com^$~third-party,domain=app.bugsnag.com"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "bugsnag.com"
+    }
+  },
+  "settings.luckyorange.net": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||luckyorange.net^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "conditional",
+      "rule": "||luckyorange.net^$3p"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||luckyorange.net^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "luckyorange.net"
+    }
+  },
+  "smetrics.samsung.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||smetrics.samsung.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||smetrics.samsung.com^"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "global",
+      "rule": "||smetrics.samsung.com^"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "smetrics.samsung.com"
+    }
+  },
+  "ssl.google-analytics.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||google-analytics.com^"
+    },
+    "adguard-base": {
+      "status": "conditional",
+      "rule": "||ssl.google-analytics.com^$domain=topsporter.net,redirect=noop.txt,image,media,subdocument,stylesheet,script,xhr,other"
+    },
+    "adguard-tracking": {
+      "status": "exception-review",
+      "rule": "@@||google-analytics.com^$domain=daemon-tools.cc"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||google-analytics.com^$script,third-party,xmlhttprequest"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "google-analytics.com"
+    }
+  },
+  "static.ads-twitter.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||ads-twitter.com^"
+    },
+    "adguard-base": {
+      "status": "global",
+      "rule": "||static.ads-twitter.com^"
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "global",
+      "rule": "||static.ads-twitter.com^"
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "ads-twitter.com"
+    }
+  },
+  "static.doubleclick.net": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||doubleclick.net^"
+    },
+    "adguard-base": {
+      "status": "global",
+      "rule": "||static.doubleclick.net^"
+    },
+    "adguard-tracking": {
+      "status": "conditional",
+      "rule": "||doubleclick.net^$image,3p"
+    },
+    "easylist": {
+      "status": "global",
+      "rule": "||static.doubleclick.net^"
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "static.doubleclick.net"
+    }
+  },
+  "static.media.net": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "conditional",
+      "rule": "||static.media.net^$domain=topsporter.net,redirect=noop.txt,image,media,subdocument,stylesheet,script,xhr,other"
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "conditional",
+      "rule": "||media.net^$object,script,third-party,xmlhttprequest"
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||media.net^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "media.net"
+    }
+  },
+  "stats.g.doubleclick.net": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||doubleclick.net^"
+    },
+    "adguard-base": {
+      "status": "global",
+      "rule": "||g.doubleclick.net^"
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||stats.g.doubleclick.net^"
+    },
+    "easylist": {
+      "status": "global",
+      "rule": "||g.doubleclick.net^"
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "g.doubleclick.net"
+    }
+  },
+  "stats.wp.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||stats.wp.com^"
+    },
+    "adguard-base": {
+      "status": "conditional",
+      "rule": "||stats.wp.com^$domain=topsporter.net,redirect=noop.txt,image,media,subdocument,stylesheet,script,xhr,other"
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||stats.wp.com^"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "global",
+      "rule": "||stats.wp.com^"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "stats.wp.com"
+    }
+  },
+  "surveys.hotjar.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||hotjar.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "conditional",
+      "rule": "||hotjar.com^$3p"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||hotjar.com^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "hotjar.com"
+    }
+  },
+  "tools.mouseflow.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||mouseflow.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "conditional",
+      "rule": "||mouseflow.com^$3p"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||mouseflow.com^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "mouseflow.com"
+    }
+  },
+  "tracking.rus.miui.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "rus.miui.com"
+    }
+  },
+  "trk.pinterest.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||trk.pinterest.com^"
+    },
+    "adguard-base": {
+      "status": "exception-review",
+      "rule": "@@||pinterest.com^$generichide"
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||trk.pinterest.com^"
+    },
+    "easylist": {
+      "status": "exception-review",
+      "rule": "@@||pinterest.com^$generichide"
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||trk.pinterest.com^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "trk.pinterest.com"
+    }
+  },
+  "udcm.yahoo.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "udcm.yahoo.com"
+    }
+  },
+  "upload.luckyorange.net": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||luckyorange.net^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "conditional",
+      "rule": "||luckyorange.net^$3p"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||luckyorange.net^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "luckyorange.net"
+    }
+  },
+  "us.i.posthog.com": {
+    "adguard-dns": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||i.posthog.com^"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "unresolved",
+      "rule": ""
+    }
+  },
+  "w1.luckyorange.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||luckyorange.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "conditional",
+      "rule": "||luckyorange.com^$3p"
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "conditional",
+      "rule": "||luckyorange.com^$third-party"
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "luckyorange.com"
+    }
+  },
+  "wd.adcolony.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||adcolony.com^"
+    },
+    "adguard-base": {
+      "status": "conditional",
+      "rule": "||adcolony.com^$3p"
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "conditional",
+      "rule": "||adcolony.com^$third-party"
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "adcolony.com"
+    }
+  },
+  "weather-analytics-events.apple.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||weather-analytics-events.apple.com^"
+    },
+    "adguard-base": {
+      "status": "exception-review",
+      "rule": "@@||apple.com^$generichide"
+    },
+    "adguard-tracking": {
+      "status": "global",
+      "rule": "||weather-analytics-events.apple.com^"
+    },
+    "easylist": {
+      "status": "exception-review",
+      "rule": "@@||apple.com^$generichide"
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "weather-analytics-events.apple.com"
+    }
+  },
+  "webview.unityads.unity3d.com": {
+    "adguard-dns": {
+      "status": "global",
+      "rule": "||unityads.unity3d.com^"
+    },
+    "adguard-base": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "adguard-tracking": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easylist": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "easyprivacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "ublock-privacy": {
+      "status": "unresolved",
+      "rule": ""
+    },
+    "hagezi-pro": {
+      "status": "global",
+      "rule": "unityads.unity3d.com"
+    }
+  }
+}

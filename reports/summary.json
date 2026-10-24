@@ -1,0 +1,29 @@
+{
+  "snapshot": "2026-10-24T13:58:26.903Z",
+  "counts": {
+    "turtlecute": 128,
+    "telemetry": 26,
+    "complete": 153,
+    "supplement-dns": 44,
+    "supplement-browser": 45,
+    "aggressive": 160,
+    "turtlecute-upstream": 129
+  },
+  "turtlecuteByCategory": {
+    "Ads": 20,
+    "Analytics": 30,
+    "Error Trackers": 6,
+    "Social Trackers": 19,
+    "Mix": 19,
+    "OEMs": 34
+  },
+  "turtlecuteGlobalCoverage": {
+    "adguard-dns": 103,
+    "adguard-base": 11,
+    "adguard-tracking": 38,
+    "easylist": 12,
+    "easyprivacy": 21,
+    "ublock-privacy": 0,
+    "hagezi-pro": 126
+  }
+}

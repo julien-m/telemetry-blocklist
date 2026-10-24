@@ -1,0 +1,84 @@
+{
+  "generatedAt": "2026-10-24T13:58:26.903Z",
+  "sources": {
+    "turtlecute-live": {
+      "url": "https://adblock.turtlecute.org/js/index.js",
+      "sha256": "07af78cfa9b29bfc05380da61e47a44d7cc9aef4d1f028a3245837698c3c5aef",
+      "bytes": 49982,
+      "fetchedAt": "2026-10-24T13:58:25.314Z"
+    },
+    "ublock-privacy": {
+      "url": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt",
+      "sha256": "0894291068088dbc9120b50647a33d0524119efd77a2ee660931bc56be586f9f",
+      "bytes": 183948,
+      "fetchedAt": "2026-10-24T13:58:25.336Z"
+    },
+    "turtlecute": {
+      "url": "https://raw.githubusercontent.com/Turtlecute33/adblocktest/master/src/data/adblock_data.json",
+      "sha256": "48a19ffb2799531d3bf6f1793f33ee9639adf910580494c2f8e5cd17755ff5a1",
+      "bytes": 4244,
+      "fetchedAt": "2026-10-24T13:58:25.370Z"
+    },
+    "easyprivacy": {
+      "url": "https://raw.githubusercontent.com/easylist/easylist/gh-pages/easyprivacy.txt",
+      "sha256": "48f645b029cc012023a7fbdd9e7a199d1daba80e5fd40d76a5f9a31b7c37a08c",
+      "bytes": 1511168,
+      "fetchedAt": "2026-10-24T13:58:25.430Z"
+    },
+    "easylist": {
+      "url": "https://raw.githubusercontent.com/easylist/easylist/gh-pages/easylist.txt",
+      "sha256": "026aff72c693cd9be991c57f27f5458e30a85e31be8e6f5885cf39453cbedffe",
+      "bytes": 2238493,
+      "fetchedAt": "2026-10-24T13:58:25.474Z"
+    },
+    "hagezi-pro": {
+      "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/pro-onlydomains.txt",
+      "sha256": "d587bb31a89cfd43bc6a618f48906f138727a3784a7499f65cbaaf8947b5fe83",
+      "bytes": 3961334,
+      "fetchedAt": "2026-10-24T13:58:25.529Z"
+    },
+    "turtlecute-published": {
+      "url": "https://raw.githubusercontent.com/Turtlecute33/adblocktest/master/src/d3host.txt",
+      "sha256": "11fee397e11e4345494f2bac16465246520a219cbfeea18a2e0d91ffa0a6548f",
+      "bytes": 5053,
+      "fetchedAt": "2026-10-24T13:58:25.530Z"
+    },
+    "adguard-dns": {
+      "url": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
+      "sha256": "1b5925970bcf91d2dafc5a6ecea9a555d24740d0c6b07b84097fa4017a7ca23a",
+      "bytes": 4653090,
+      "fetchedAt": "2026-10-24T13:58:25.769Z"
+    },
+    "adguard-base": {
+      "url": "https://filters.adtidy.org/extension/ublock/filters/2.txt",
+      "sha256": "f194606a7cbb3c5beb9586e91a4cb9b2bf8a61a7b86dab41a13f9fa5879a9278",
+      "bytes": 6610037,
+      "fetchedAt": "2026-10-24T13:58:26.610Z"
+    },
+    "adguard-tracking": {
+      "url": "https://filters.adtidy.org/extension/ublock/filters/3.txt",
+      "sha256": "0e953ee0ee6edc3f3f84a91e596928392ee58491a56c87f2af7df5a6941195c5",
+      "bytes": 12380216,
+      "fetchedAt": "2026-10-24T13:58:26.634Z"
+    }
+  },
+  "methodology": "Conservative static domain-anchor inventory, not a browser or DNS engine simulation. Unresolved is not proof of absence. Conditional preprocessor sections are skipped.",
+  "recognizedGlobalRules": {
+    "adguard-dns": 190575,
+    "adguard-base": 62646,
+    "adguard-tracking": 110861,
+    "easylist": 51741,
+    "easyprivacy": 43284,
+    "ublock-privacy": 88,
+    "hagezi-pro": 208296
+  },
+  "unsupportedRules": {
+    "adguard-dns": 872,
+    "adguard-base": 55407,
+    "adguard-tracking": 253496,
+    "easylist": 14898,
+    "easyprivacy": 8975,
+    "ublock-privacy": 1532,
+    "hagezi-pro": 0
+  }
+}

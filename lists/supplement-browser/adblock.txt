@@ -1,0 +1,49 @@
+! Title: Mac Telemetry Blocklists - supplement-browser
+! Description: Complete minus domain-anchored blocks found in selected browser lists, including conditional blocks; candidates only.
+! License: CC BY-NC-SA 4.0
+! Expires: 1 day
+||ads-api.tiktok.com^
+||ads-sg.tiktok.com^
+||ads.pinterest.com^
+||ads.tiktok.com^
+||adserver.unityads.unity3d.com^
+||adservice.google.com^
+||adsfs.oppomobile.com^
+||adtech.yahooinc.com^
+||adx.ads.oppomobile.com^
+||api.bugsnag.com^
+||app.bugsnag.com^
+||appmetrica.yandex.ru^
+||auction.unityads.unity3d.com^
+||bdapi-ads.realmemobile.com^
+||bdapi-in-ads.realmemobile.com^
+||browser-intake-ap1-datadoghq.com^
+||browser-intake-ap2-datadoghq.com^
+||browser-intake-ddog-gov.com^
+||browser-intake-uk1-datadoghq.com^
+||browser-intake-us2-ddog-gov.com^
+||browser-intake-us3-datadoghq.com^
+||browser-intake-us5-datadoghq.com^
+||browser.sentry-cdn.com^
+||business-api.tiktok.com^
+||ck.ads.oppomobile.com^
+||click.googleanalytics.com^
+||config.unityads.unity3d.com^
+||data.ads.oppomobile.com^
+||eu1.api.segmentapis.com^
+||events.eu1.segmentapis.com^
+||gemini.yahoo.com^
+||http-intake.logs.us5.datadoghq.com^
+||iadsdk.apple.com^
+||log.byteoversea.com^
+||log.fc.yahoo.com^
+||metrika.yandex.ru^
+||mobile.events.data.microsoft.com^
+||notify.bugsnag.com^
+||offerwall.yandex.net^
+||otlp.bugsnag.com^
+||partnerads.ysm.yahoo.com^
+||sessions.bugsnag.com^
+||tracking.rus.miui.com^
+||udcm.yahoo.com^
+||webview.unityads.unity3d.com^

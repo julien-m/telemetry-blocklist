@@ -1,0 +1,29 @@
+# Mac Telemetry Blocklists - telemetry
+# Documented event and crash ingestion endpoints; shared endpoints affect multiple apps.
+# Exact hostnames only; no implicit subdomains.
+0.0.0.0 api.eu.amplitude.com
+0.0.0.0 api.segment.io
+0.0.0.0 api2.amplitude.com
+0.0.0.0 browser-intake-ap1-datadoghq.com
+0.0.0.0 browser-intake-ap2-datadoghq.com
+0.0.0.0 browser-intake-datadoghq.com
+0.0.0.0 browser-intake-datadoghq.eu
+0.0.0.0 browser-intake-ddog-gov.com
+0.0.0.0 browser-intake-uk1-datadoghq.com
+0.0.0.0 browser-intake-us2-ddog-gov.com
+0.0.0.0 browser-intake-us3-datadoghq.com
+0.0.0.0 browser-intake-us5-datadoghq.com
+0.0.0.0 eu1.api.segmentapis.com
+0.0.0.0 events.eu1.segmentapis.com
+0.0.0.0 events.statsigapi.net
+0.0.0.0 http-intake.logs.us5.datadoghq.com
+0.0.0.0 ingest.de.sentry.io
+0.0.0.0 ingest.sentry.io
+0.0.0.0 ingest.us.sentry.io
+0.0.0.0 mobile.events.data.microsoft.com
+0.0.0.0 notify.bugsnag.com
+0.0.0.0 o207216.ingest.sentry.io
+0.0.0.0 o33249.ingest.sentry.io
+0.0.0.0 otlp.bugsnag.com
+0.0.0.0 rum.browser-intake-datadoghq.com
+0.0.0.0 sessions.bugsnag.com

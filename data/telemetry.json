@@ -1,0 +1,266 @@
+[
+  {
+    "domain": "http-intake.logs.us5.datadoghq.com",
+    "vendor": "Claude Code / Datadog",
+    "role": "Optional operational metrics and error reports",
+    "source": "https://code.claude.com/docs/en/network-config",
+    "risk": "Loss of diagnostics or usage reporting across apps using this shared collector.",
+    "profile": "telemetry"
+  },
+  {
+    "domain": "browser-intake-us5-datadoghq.com",
+    "vendor": "Claude Code / Datadog",
+    "role": "Optional operational metrics and error reports",
+    "source": "https://code.claude.com/docs/en/network-config",
+    "risk": "Loss of diagnostics or usage reporting across apps using this shared collector.",
+    "profile": "telemetry"
+  },
+  {
+    "domain": "ingest.sentry.io",
+    "vendor": "Sentry",
+    "role": "Event ingestion suffix; includes tenant subdomains",
+    "source": "https://sentry.io/changelog/ingestion-ip-addresses-are-changing/",
+    "risk": "Loss of diagnostics or usage reporting across apps using this shared collector.",
+    "profile": "telemetry"
+  },
+  {
+    "domain": "ingest.us.sentry.io",
+    "vendor": "Sentry",
+    "role": "Event ingestion suffix; includes tenant subdomains",
+    "source": "https://sentry.io/changelog/ingestion-ip-addresses-are-changing/",
+    "risk": "Loss of diagnostics or usage reporting across apps using this shared collector.",
+    "profile": "telemetry"
+  },
+  {
+    "domain": "ingest.de.sentry.io",
+    "vendor": "Sentry",
+    "role": "Event ingestion suffix; includes tenant subdomains",
+    "source": "https://sentry.io/changelog/ingestion-ip-addresses-are-changing/",
+    "risk": "Loss of diagnostics or usage reporting across apps using this shared collector.",
+    "profile": "telemetry"
+  },
+  {
+    "domain": "o207216.ingest.sentry.io",
+    "vendor": "OpenAI / shared observability",
+    "role": "Sentry and RUM endpoints named by OpenAI network guidance",
+    "source": "https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps",
+    "risk": "OpenAI recommends allowlisting these for support; blocking removes diagnostics and requires app testing. This does not prove use by every OpenAI app.",
+    "profile": "telemetry"
+  },
+  {
+    "domain": "o33249.ingest.sentry.io",
+    "vendor": "OpenAI / shared observability",
+    "role": "Sentry and RUM endpoints named by OpenAI network guidance",
+    "source": "https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps",
+    "risk": "OpenAI recommends allowlisting these for support; blocking removes diagnostics and requires app testing. This does not prove use by every OpenAI app.",
+    "profile": "telemetry"
+  },
+  {
+    "domain": "rum.browser-intake-datadoghq.com",
+    "vendor": "OpenAI / shared observability",
+    "role": "Sentry and RUM endpoints named by OpenAI network guidance",
+    "source": "https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps",
+    "risk": "OpenAI recommends allowlisting these for support; blocking removes diagnostics and requires app testing. This does not prove use by every OpenAI app.",
+    "profile": "telemetry"
+  },
+  {
+    "domain": "api.segment.io",
+    "vendor": "Segment",
+    "role": "Analytics event ingestion",
+    "source": "https://www.twilio.com/docs/segment/connections/sources/catalog/libraries/server/http-api",
+    "risk": "Loss of diagnostics or usage reporting across apps using this shared collector.",
+    "profile": "telemetry"
+  },
+  {
+    "domain": "eu1.api.segmentapis.com",
+    "vendor": "Segment",
+    "role": "Analytics event ingestion",
+    "source": "https://www.twilio.com/docs/segment/connections/sources/catalog/libraries/server/http-api",
+    "risk": "Loss of diagnostics or usage reporting across apps using this shared collector.",
+    "profile": "telemetry"
+  },
+  {
+    "domain": "events.eu1.segmentapis.com",
+    "vendor": "Segment",
+    "role": "Analytics event ingestion",
+    "source": "https://www.twilio.com/docs/segment/connections/sources/catalog/libraries/server/http-api",
+    "risk": "Loss of diagnostics or usage reporting across apps using this shared collector.",
+    "profile": "telemetry"
+  },
+  {
+    "domain": "api2.amplitude.com",
+    "vendor": "Amplitude",
+    "role": "HTTP V2 event ingestion",
+    "source": "https://www.amplitude.com/docs/apis%2Fanalytics%2Fhttp-v2",
+    "risk": "Loss of diagnostics or usage reporting across apps using this shared collector.",
+    "profile": "telemetry"
+  },
+  {
+    "domain": "api.eu.amplitude.com",
+    "vendor": "Amplitude",
+    "role": "HTTP V2 event ingestion",
+    "source": "https://www.amplitude.com/docs/apis%2Fanalytics%2Fhttp-v2",
+    "risk": "Loss of diagnostics or usage reporting across apps using this shared collector.",
+    "profile": "telemetry"
+  },
+  {
+    "domain": "browser-intake-datadoghq.com",
+    "vendor": "Datadog",
+    "role": "RUM/session replay intake suffix; includes product subdomains",
+    "source": "https://docs.datadoghq.com/real_user_monitoring/guide/proxy-rum-data/",
+    "risk": "Loss of diagnostics or usage reporting across apps using this shared collector.",
+    "profile": "telemetry"
+  },
+  {
+    "domain": "browser-intake-datadoghq.eu",
+    "vendor": "Datadog",
+    "role": "RUM/session replay intake suffix; includes product subdomains",
+    "source": "https://docs.datadoghq.com/real_user_monitoring/guide/proxy-rum-data/",
+    "risk": "Loss of diagnostics or usage reporting across apps using this shared collector.",
+    "profile": "telemetry"
+  },
+  {
+    "domain": "browser-intake-us3-datadoghq.com",
+    "vendor": "Datadog",
+    "role": "RUM/session replay intake suffix; includes product subdomains",
+    "source": "https://docs.datadoghq.com/real_user_monitoring/guide/proxy-rum-data/",
+    "risk": "Loss of diagnostics or usage reporting across apps using this shared collector.",
+    "profile": "telemetry"
+  },
+  {
+    "domain": "browser-intake-ap1-datadoghq.com",
+    "vendor": "Datadog",
+    "role": "RUM/session replay intake suffix; includes product subdomains",
+    "source": "https://docs.datadoghq.com/real_user_monitoring/guide/proxy-rum-data/",
+    "risk": "Loss of diagnostics or usage reporting across apps using this shared collector.",
+    "profile": "telemetry"
+  },
+  {
+    "domain": "browser-intake-ap2-datadoghq.com",
+    "vendor": "Datadog",
+    "role": "RUM/session replay intake suffix; includes product subdomains",
+    "source": "https://docs.datadoghq.com/real_user_monitoring/guide/proxy-rum-data/",
+    "risk": "Loss of diagnostics or usage reporting across apps using this shared collector.",
+    "profile": "telemetry"
+  },
+  {
+    "domain": "browser-intake-uk1-datadoghq.com",
+    "vendor": "Datadog",
+    "role": "RUM/session replay intake suffix; includes product subdomains",
+    "source": "https://docs.datadoghq.com/real_user_monitoring/guide/proxy-rum-data/",
+    "risk": "Loss of diagnostics or usage reporting across apps using this shared collector.",
+    "profile": "telemetry"
+  },
+  {
+    "domain": "browser-intake-ddog-gov.com",
+    "vendor": "Datadog",
+    "role": "RUM/session replay intake suffix; includes product subdomains",
+    "source": "https://docs.datadoghq.com/real_user_monitoring/guide/proxy-rum-data/",
+    "risk": "Loss of diagnostics or usage reporting across apps using this shared collector.",
+    "profile": "telemetry"
+  },
+  {
+    "domain": "browser-intake-us2-ddog-gov.com",
+    "vendor": "Datadog",
+    "role": "RUM/session replay intake suffix; includes product subdomains",
+    "source": "https://docs.datadoghq.com/real_user_monitoring/guide/proxy-rum-data/",
+    "risk": "Loss of diagnostics or usage reporting across apps using this shared collector.",
+    "profile": "telemetry"
+  },
+  {
+    "domain": "notify.bugsnag.com",
+    "vendor": "BugSnag",
+    "role": "Error, session and performance ingestion",
+    "source": "https://docs.bugsnag.com/on-premise/notifiers-configuration/",
+    "risk": "Loss of diagnostics or usage reporting across apps using this shared collector.",
+    "profile": "telemetry"
+  },
+  {
+    "domain": "sessions.bugsnag.com",
+    "vendor": "BugSnag",
+    "role": "Error, session and performance ingestion",
+    "source": "https://docs.bugsnag.com/on-premise/notifiers-configuration/",
+    "risk": "Loss of diagnostics or usage reporting across apps using this shared collector.",
+    "profile": "telemetry"
+  },
+  {
+    "domain": "otlp.bugsnag.com",
+    "vendor": "BugSnag",
+    "role": "Error, session and performance ingestion",
+    "source": "https://docs.bugsnag.com/on-premise/notifiers-configuration/",
+    "risk": "Loss of diagnostics or usage reporting across apps using this shared collector.",
+    "profile": "telemetry"
+  },
+  {
+    "domain": "events.statsigapi.net",
+    "vendor": "Statsig",
+    "role": "Event collection",
+    "source": "https://docs.statsig.com/infrastructure/statsig_domains",
+    "risk": "Loss of diagnostics or usage reporting across apps using this shared collector.",
+    "profile": "telemetry"
+  },
+  {
+    "domain": "mobile.events.data.microsoft.com",
+    "vendor": "Microsoft OneCollector",
+    "role": "Default telemetry collector; shared SDK",
+    "source": "https://microsoft.github.io/cpp_client_telemetry/oneds_docs/variable_ILogConfiguration_8hpp_1af3f4a326fe1f0c4ecb4bf238934bf188.html",
+    "risk": "Loss of diagnostics or usage reporting across apps using this shared collector.",
+    "profile": "telemetry"
+  },
+  {
+    "domain": "us.i.posthog.com",
+    "vendor": "PostHog",
+    "role": "Analytics ingestion and feature-flag evaluation",
+    "source": "https://posthog.com/docs/api",
+    "risk": "Feature flags and experiments may stop working.",
+    "profile": "aggressive"
+  },
+  {
+    "domain": "eu.i.posthog.com",
+    "vendor": "PostHog",
+    "role": "Analytics ingestion and feature-flag evaluation",
+    "source": "https://posthog.com/docs/api",
+    "risk": "Feature flags and experiments may stop working.",
+    "profile": "aggressive"
+  },
+  {
+    "domain": "api.mixpanel.com",
+    "vendor": "Mixpanel",
+    "role": "Analytics API, potentially feature flags",
+    "source": "https://mixpanel.github.io/mixpanel-react-native/Mixpanel.html",
+    "risk": "May affect more than event collection.",
+    "profile": "aggressive"
+  },
+  {
+    "domain": "api-eu.mixpanel.com",
+    "vendor": "Mixpanel",
+    "role": "Analytics API, potentially feature flags",
+    "source": "https://mixpanel.github.io/mixpanel-react-native/Mixpanel.html",
+    "risk": "May affect more than event collection.",
+    "profile": "aggressive"
+  },
+  {
+    "domain": "api-in.mixpanel.com",
+    "vendor": "Mixpanel",
+    "role": "Analytics API, potentially feature flags",
+    "source": "https://mixpanel.github.io/mixpanel-react-native/Mixpanel.html",
+    "risk": "May affect more than event collection.",
+    "profile": "aggressive"
+  },
+  {
+    "domain": "oaistatsig.com",
+    "vendor": "OpenAI / Statsig",
+    "role": "Mixed experimentation and configuration domain family",
+    "source": "https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps",
+    "risk": "Official allowlist includes this domain family; not a telemetry-only endpoint. May change app behavior.",
+    "profile": "aggressive"
+  },
+  {
+    "domain": "prodregistryv2.org",
+    "vendor": "Statsig",
+    "role": "Event log URL but also listed for server APIs",
+    "source": "https://docs.statsig.com/infrastructure/statsig_domains",
+    "risk": "Domain-level block may affect APIs beyond documented /v1/rgstr collection path.",
+    "profile": "aggressive"
+  }
+]

@@ -1,0 +1,48 @@
+! Title: Mac Telemetry Blocklists - supplement-dns
+! Description: Complete minus unconditional domain blocks found in AdGuard DNS filter; static candidate supplement.
+! License: CC BY-NC-SA 4.0
+! Expires: 1 day
+||ads-api.tiktok.com^
+||ads-sg.tiktok.com^
+||ads.pinterest.com^
+||ads.tiktok.com^
+||ads.yahoo.com^
+||adservetx.media.net^
+||adtech.yahooinc.com^
+||api.bugsnag.com^
+||api.eu.amplitude.com^
+||api2.amplitude.com^
+||app.bugsnag.com^
+||app.getsentry.com^
+||appmetrica.yandex.ru^
+||browser-intake-ap1-datadoghq.com^
+||browser-intake-ap2-datadoghq.com^
+||browser-intake-ddog-gov.com^
+||browser-intake-uk1-datadoghq.com^
+||browser-intake-us2-ddog-gov.com^
+||browser-intake-us3-datadoghq.com^
+||browser-intake-us5-datadoghq.com^
+||browser.sentry-cdn.com^
+||business-api.tiktok.com^
+||click.googleanalytics.com^
+||eu1.api.segmentapis.com^
+||events.eu1.segmentapis.com^
+||gemini.yahoo.com^
+||http-intake.logs.us5.datadoghq.com^
+||ingest.de.sentry.io^
+||ingest.sentry.io^
+||ingest.us.sentry.io^
+||log.byteoversea.com^
+||log.fc.yahoo.com^
+||media.net^
+||metrika.yandex.ru^
+||mobile.events.data.microsoft.com^
+||notify.bugsnag.com^
+||o207216.ingest.sentry.io^
+||o33249.ingest.sentry.io^
+||otlp.bugsnag.com^
+||partnerads.ysm.yahoo.com^
+||sessions.bugsnag.com^
+||static.media.net^
+||tracking.rus.miui.com^
+||udcm.yahoo.com^

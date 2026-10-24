@@ -1,0 +1,64 @@
+{
+  "title": "Mac Telemetry Blocklists",
+  "repository": "https://github.com/julien-m/mac-telemetry-blocklists",
+  "rawBase": "https://raw.githubusercontent.com/julien-m/mac-telemetry-blocklists/stable",
+  "turtleSource": "https://raw.githubusercontent.com/Turtlecute33/adblocktest/master/src/data/adblock_data.json",
+  "turtleLiveBundle": "https://adblock.turtlecute.org/js/index.js",
+  "baselineSources": [
+    {
+      "id": "adguard-dns",
+      "url": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
+      "format": "adblock"
+    },
+    {
+      "id": "adguard-base",
+      "url": "https://filters.adtidy.org/extension/ublock/filters/2.txt",
+      "format": "adblock"
+    },
+    {
+      "id": "adguard-tracking",
+      "url": "https://filters.adtidy.org/extension/ublock/filters/3.txt",
+      "format": "adblock"
+    },
+    {
+      "id": "easylist",
+      "url": "https://raw.githubusercontent.com/easylist/easylist/gh-pages/easylist.txt",
+      "format": "adblock"
+    },
+    {
+      "id": "easyprivacy",
+      "url": "https://raw.githubusercontent.com/easylist/easylist/gh-pages/easyprivacy.txt",
+      "format": "adblock"
+    },
+    {
+      "id": "ublock-privacy",
+      "url": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt",
+      "format": "adblock"
+    },
+    {
+      "id": "hagezi-pro",
+      "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/pro-onlydomains.txt",
+      "format": "suffix-domains"
+    }
+  ],
+  "browserBaselines": [
+    "adguard-base",
+    "adguard-tracking",
+    "easylist",
+    "easyprivacy",
+    "ublock-privacy"
+  ],
+  "dnsBaselines": [
+    "adguard-dns"
+  ],
+  "profiles": {
+    "turtlecute": "Exact Turtlecute test inventory; includes dashboards, SDK assets and mixed-use services.",
+    "telemetry": "Documented event and crash ingestion endpoints; shared endpoints affect multiple apps.",
+    "complete": "Turtlecute inventory plus documented telemetry collectors. Includes all Turtlecute risks.",
+    "supplement-dns": "Complete minus unconditional domain blocks found in AdGuard DNS filter; static candidate supplement.",
+    "supplement-browser": "Complete minus domain-anchored blocks found in selected browser lists, including conditional blocks; candidates only.",
+    "aggressive": "Complete plus mixed-use analytics and feature-flag services; may break app functionality.",
+    "turtlecute-upstream": "Published Turtlecute hosts list; may include names absent from the live test."
+  },
+  "turtleHostsSource": "https://raw.githubusercontent.com/Turtlecute33/adblocktest/master/src/d3host.txt"
+}

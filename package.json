@@ -1,0 +1,10 @@
+{
+  "name": "mac-telemetry-blocklists",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "bun scripts/build.ts",
+    "refresh": "bun scripts/refresh.ts",
+    "test": "bun test --timeout 2000"
+  }
+}
